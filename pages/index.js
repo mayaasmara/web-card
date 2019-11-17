@@ -9,10 +9,10 @@ import Center from '../components/center'
 const Home = () => (
   <Page>
     <Head
-      title='M Haidar Hanif'
-      description='A human who solves problems'
-      url='https://mhaidarhanif.com'
-      ogImage='/static/photos/mhaidarhanif.jpg'
+      title='Maya Asmara'
+      description='A happy warrior'
+      url='https://mayaasmara.com'
+      ogImage='/static/photos/mayaasmara.jpg'
     />
 
     <Center>
@@ -27,7 +27,7 @@ const Home = () => (
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
           Helvetica, sans-serif;
-        background-color: #111111;
+        background-color: hsla(270, 40%, 40%, 30%);
       }
 
       @media (max-width: 650px) {

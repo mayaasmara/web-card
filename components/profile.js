@@ -20,9 +20,9 @@ const Card = styled.div`
 
 const Photo = styled.div`
   border-radius: 5px 5px 0 0;
-  background: #000000;
+  background: hsla(270, 40%, 40%, 30%);
   background-image: url(${props => props.image});
-  background: linear-gradient(hsla(0, 0%, 0%, 0%), hsla(0, 0%, 0%, 80%)),
+  background: linear-gradient(hsla(0, 0%, 0%, 0%), hsla(270, 40%, 40%, 30%)),
     url(${props => props.image});
   background-size: cover;
   background-position: center;
@@ -62,13 +62,12 @@ const Description = styled.p`
 
 const Profile = props => (
   <Card>
-    <Photo image='/static/photos/mhaidarhanif.jpg'>
-      <Name>M Haidar Hanif</Name>
+    <Photo image='/static/photos/mayaasmara.jpg'>
+      <Name>Maya Asmara</Name>
     </Photo>
     <Content>
       <Description>
-        Hello, world! I am Haidar. A human who tackles things in technology,
-        design, business, marketing, and life.
+        Hello there, beautiful soul! I am on mission to help raising people’s consciousness of their true happiness. I founded Depression Warriors Indonesia, a community-based organization that provides a sanctuary and peer-to-peer support for depression survivors. Now I actively work as writer, activist, and mindfulness coach.
       </Description>
       <SocialLinks />
     </Content>

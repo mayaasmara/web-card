@@ -22,27 +22,18 @@ const ExternalLink = styled.a`
 
 const links = [
   {
-    url: 'https://fb.me/mhaidarhanif',
+    url: 'https://www.facebook.com/mayaasmara.pane',
     name: 'Facebook',
     color: '#4267B2'
   },
   {
-    url: 'https://instagram.com/mhaidarh',
+    url: 'https://instagram.com/mayaasmara_',
     name: 'Instagram',
     color: '#b900b4'
   },
+  
   {
-    url: 'https://github.com/mhaidarh',
-    name: 'GitHub',
-    color: '#24292e'
-  },
-  {
-    url: 'https://twitter.com/mhaidarh',
-    name: 'Twitter',
-    color: '#1DA1F2'
-  },
-  {
-    url: 'https://linkedin.com/in/mhaidarhanif',
+    url: 'https://linkedin.com/in/maya-asmara',
     name: 'LinkedIn',
     color: '#2867B2'
   }
